@@ -23,7 +23,7 @@ cross.addEventListener('click', function(){
   
   })
 
-$('.btn').click(function(){
+  $('.btn').click(function(){
     $(this).toggleClass("click");
     $('.sidebar').toggleClass("show");
     $('.backdrop').toggleClass("show");
