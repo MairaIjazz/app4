@@ -1,7 +1,7 @@
 var backdrop = document.querySelector('.backdrop');
 var bag=document.querySelector('.fa-shopping-bag');
 var shop =document.querySelector('.shop_bag');
-var cross=document.querySelector('.cross');
+var cros=document.querySelector('.cross');
 
 
 // shopping bag close
