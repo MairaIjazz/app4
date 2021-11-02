@@ -5,7 +5,7 @@ var cros=document.querySelector('.cross');
 
 
 // shopping bag close
-cross.addEventListener('click', function(){
+cros.addEventListener('click', function(){
     // mobNav.style.display='none';
     shop.classList.remove('open');
     setTimeout(function(){
