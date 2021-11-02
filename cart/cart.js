@@ -1,3 +1,28 @@
+var backdrop = document.querySelector('.backdrop');
+var bag=document.querySelector('.fa-shopping-bag');
+var shop =document.querySelector('.shop_bag');
+var cross=document.querySelector('.cross');
+
+
+// shopping bag close
+cross.addEventListener('click', function(){
+    // mobNav.style.display='none';
+    shop.classList.remove('open');
+    setTimeout(function(){
+        backdrop.classList.remove('open');
+    },10)
+  
+  });
+  
+  // shopping bag open
+  bag.addEventListener('click', function(){
+    shop.classList.add('open');
+    setTimeout(function(){
+      backdrop.classList.add('open');
+  },10)
+  
+  })
+
 $('.btn').click(function(){
     $(this).toggleClass("click");
     $('.sidebar').toggleClass("show");
