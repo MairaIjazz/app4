@@ -4,15 +4,7 @@ var shop =document.querySelector('.shop_bag');
 var cros=document.querySelector('.cross');
 
 
-// shopping bag close
-cros.addEventListener('click', function(){
-    // mobNav.style.display='none';
-    shop.classList.remove('open');
-    setTimeout(function(){
-        backdrop.classList.remove('open');
-    },10)
-  
-  });
+
   
   // shopping bag open
   bag.addEventListener('click', function(){
